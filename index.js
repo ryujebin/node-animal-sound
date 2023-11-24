@@ -14,11 +14,11 @@ app.get('/sound/:name', (req, res) => {
   const { name } = req.params
 
   if(name == "dog"){
-    res.send({'sound' : '멍멍'})
+    res.send({'sound' : '멍'})
   }else if(name == "cat"){
-    res.send({'sound' : '야옹'})
+    res.send({'sound' : '야옹야옹'})
   }else if(name == "pig"){
-    res.send({'sound' : '꿀'})
+    res.send({'sound' : '꿀꿀'})
   }else{
     res.send({'sound' : '알수없음'})
   }
