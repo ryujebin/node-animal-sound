@@ -14,7 +14,7 @@ app.get('/sound/:name', (req, res) => {
   const { name } = req.params
 
   if(name == "dog"){
-    res.send({'sound' : '멍'})
+    res.send({'sound' : '멍멍멍'})
   }else if(name == "cat"){
     res.send({'sound' : '야옹야옹'})
   }else if(name == "pig"){
